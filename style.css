@@ -127,6 +127,7 @@ html {
       white-space: pre-line;
       overflow-wrap: break-word;
       margin-top: 10vh;
+      padding: 2vw;
       font-size: 5vw;
       z-index: 100;
     }

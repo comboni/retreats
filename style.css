@@ -1,0 +1,138 @@
+body,
+html {
+  color: #ffffff;
+  text-align: center;
+  background: #516b0a;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+  .items {
+    height: 100vh;
+    border: 10px solid rgb(211, 198, 15);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+  }
+
+  .items.active {
+    cursor: grabbing;
+  }
+
+  .item {
+    border: rgb(57, 13, 218) solid 10px;
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    align-content: center;  
+    border: rgb(255, 255, 255) solid 1px;
+  }
+
+  .itemcont{
+    border: red solid 10px;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: start;  /*center*/
+    align-items: normal;
+    align-content: normal;
+  }
+  .secimg{
+    position: absolute;
+    height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .secimg2{
+    position: absolute;
+    top: 50vh;
+    height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+.secimg3{
+    position: absolute;
+    top: 40vh;
+    height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+.hand{
+    position: absolute;
+    top: 85vh;
+    left: 30vw;
+    overflow: hidden;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 2s;
+}
+@keyframes run {
+  0% {
+    left: 50%;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;    
+  }
+  80% {
+    opacity: 1;    
+  }
+  100% {
+    left: 30%;
+    opacity: 0;    
+  }
+}
+.hand img{
+  width: 20vw;
+}
+.textblock{
+  position: relative;
+  top: 40vh;
+}
+.textblock2{
+  position: relative;
+  top: 0vh;
+}
+  .tit1{
+    margin-top: 10vh;
+    font-size: 5vw;
+    z-index: 100;
+  }
+  .tit2{
+    margin-top: 2vh;
+    font-size: 3vw;
+    z-index: 100;
+  }
+  .line{
+    margin-top: 5vh;
+    border-top: white solid 5px;
+    width: 50vw;
+    margin-left: 25vw;
+    z-index: 100;
+  }
+  .date{
+    margin-top: 3vh;
+    font-size: 5vw;
+    z-index: 100;
+  }
+  .autor{
+    margin-top: 2vh;
+    font-size: 5vw;
+    z-index: 100;
+  }
+
+  
+  
+
+

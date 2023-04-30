@@ -64,10 +64,18 @@ html {
 .secimg3{
     position: absolute;
     top: 40vh;
-    height: 40vh;
     width: 100vw;
+    height: 40vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
     overflow: hidden;
-  }
+    border: blue solid 1px;
+}
+.secimg3 img{
+    width: 60vw;
+    object-fit: contain;
+}
 .hand{
     position: absolute;
     top: 85vh;
